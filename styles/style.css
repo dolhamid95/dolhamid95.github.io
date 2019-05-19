@@ -1,0 +1,84 @@
+/* start body */
+body {
+    background: rgb(153, 221, 107);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(171, 250, 164)
+}
+
+.bg-red {
+    background-color: rgb(235, 252, 85)
+}
+/* End Debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+
+}
+
+container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+
+}
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: aqua;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px aliceblue
+        0 6px 10px 0 aliceblue
+        0 1px 18px aliceblue
+}
+
+.menu-primer li {
+    display: inline-block;
+    border-right: 1px solid
+
+}
+
+.menu-primer a {
+    color:white
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/* end menu primer */
