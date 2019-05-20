@@ -1,22 +1,22 @@
 /* start body */
 body {
-    background: rgb(153, 221, 107);
+    background: rgb(238, 163, 78);
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
     line-height: 1.5em;
-    margin: 0;
-    padding: 0;
+    margin: 80;
+    padding: 100;
 }
 /* end body */
 
 /* Start Debug */
 .bg-blue {
-    background-color: rgb(171, 250, 164)
+    background-color: rgb(233, 147, 18)
 }
 
 .bg-red {
-    background-color: rgb(235, 252, 85)
+    background-color: rgb(241, 174, 50)
 }
 /* End Debug */
 
@@ -25,16 +25,30 @@ body {
     margin: 10px auto;
     overflow: auto;
     width: 90%;
-
 }
 
-container-full {
+.container-full {
     margin: 10px auto;
     overflow: auto;
-    width: 100%;
+    width: 90%;
 
 }
 /* end container */
+
+.jumbotron h1,
+.jumbotron h3 {
+  margin: 20px;
+}
+
+.jumbotron h4,
+.jumbotron p {
+  margin: 20px;
+}
+
+.jumbotron h4,
+.jumbotron ul {
+  margin: 20px;
+}
 
 /* start logo */
 .logo {
@@ -44,12 +58,12 @@ container-full {
 
 /* start menu primer */
 .menu-primer ul {
-    background-color: aqua;
+    background-color: rgb(226, 138, 23);
     border-radius: 4px;
     box-shadow: 
-        0 3px 5px -1px aliceblue
-        0 6px 10px 0 aliceblue
-        0 1px 18px aliceblue
+        0 3px 5px -1px aliceblue;
+        0 6px 10px 0 aliceblue;
+        0 1px 18px aliceblue;
 }
 
 .menu-primer li {
@@ -59,7 +73,7 @@ container-full {
 }
 
 .menu-primer a {
-    color:white
+    color:white;
     font-size: 13px;
     display: inline-block;
     letter-spacing: 1px;
@@ -86,7 +100,7 @@ container-full {
   background-color: #045e78;
   color: #ffffff;
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 16px;
   margin: 10px;
   max-width: 315px;
@@ -180,4 +194,3 @@ container-full {
 /* end effect */
 /* end menu primer */
 
-https://www.google.com/imgres?imgurl=http%3A%2F%2Fsandraaprilyapermatasari.student.umm.ac.id
